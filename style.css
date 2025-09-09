@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(autocar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(45, 25, 68);
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: none;
+    backdrop-filter: blur(12px);
+    border:none;
+    height:480px;
+    gap:40px;
+    border-bottom:2px solid rgba(240, 248, 255, 0.649);
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.649);
+    height:240px;
+    width: 1475px;
+}
+
+.header img{
+    width: 480px;
+}
+
+.header h1{
+    color: rgb(45, 25, 68);
+    font-size: 130px;
+    font-weight: 300;
+}
+
+.main_btns{
+    display:flex;
+    gap:40px;
+}
+
+.main_btns button{
+    width:130px;
+    background: none;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    transition: all 0.3s ease-in;
+}
+
+.main_btns button:hover{
+    font-weight: 800;
+    color: rgb(45, 25, 68);
+}
+
+.add{
+    margin-top: 300px;
+    background-color: aliceblue;
+    color:rgb(45, 25, 68);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:600px;
+    width:90%;
+    position: relative;
+    left: 5%;
+    gap:50px;
+}
+
+.alegeri{
+    display: flex;
+    flex-direction: column;         
+    gap:50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:100px;
+}
+
+.alegere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.alegere i{
+    font-size: 80px;
+}
+
+.alegere p{
+    font-size: 15px;
+}
+
+.footer{
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    background-color: rgb(45, 25, 68);
+    padding: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col h3{
+    font-weight: 400;
+}
+
+.col p{
+    font-weight: 100;
+}
+
+
+@media only screen and (max-width:600px){
+    body{
+        background-position: 50%;
+        background-size: cover;
+        background-color: aliceblue;
+    }
+
+    .top{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:none;
+        backdrop-filter: blur(0px);
+        margin:0;
+        border: 0;
+    }
+
+    .header{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 15px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .header img{
+        width:100%;
+    }
+
+    .header h1{
+        width:100%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main_btns{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .add{
+        width:90%;
+        background-color: aliceblue;
+        display: flex;
+        height: fit-content;
+        margin: 0;
+        border-radius: 15px;
+        padding: 20px 0px 20px 0px;
+        margin-bottom: 2%;
+    }
+
+    .add h1{
+        font-size: 25px;
+    }
+
+    .algeri{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .footer{
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: aliceblue;
+        background-color: rgb(45, 25, 68);
+        padding: 50px;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+@media only screen and (min-width:601px){
+    body{
+        background-position: 50%;
+        background-size: cover;
+        background-color: aliceblue;
+    }
+
+    .top{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:none;
+        backdrop-filter: blur(0px);
+        margin:0;
+        border: 0;
+    }
+
+    .header{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 15px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .header img{
+        width:100%;
+    }
+
+    .header h1{
+        width:100%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main_btns{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .add{
+        width:90%;
+        background-color: aliceblue;
+        display: flex;
+        height: fit-content;
+        margin: 0;
+        border-radius: 15px;
+        padding: 20px 0px 20px 0px;
+        margin-bottom: 2%;
+    }
+
+    .add h1{
+        font-size: 25px;
+    }
+
+    .algeri{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .footer{
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: aliceblue;
+        background-color: rgb(45, 25, 68);
+        padding: 50px;
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    body{
+        background-position: 50%;
+        background-size: cover;
+        background-color: aliceblue;
+    }
+
+    .top{
+        background: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .header h1{
+        font-size: 50px;
+    }
+
+    .main_btns{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap:20px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    body{
+        background-position: 50%;
+        background-size: cover;
+        background-color: aliceblue;
+    }
+
+    .top{
+                background: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .header h1{
+        font-size: 70px;
+    }
+
+    .alegeri{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+    body{
+        position: 50%;
+        background-size: cover;
+        background-color: aliceblue;
+    }
+
+    .top{
+        background: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_btns{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:1475px) and (max-width:1920px){
+    body{
+    background-image: url(autocar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgb(45, 25, 68);
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 50px 50px;
+    margin: 0% 3% 0% 3%;
+    width:94%;
+    background: none;
+    backdrop-filter: blur(12px);
+    border:none;
+    height:480px;
+    gap:40px;
+    border-bottom:2px solid rgba(240, 248, 255, 0.649);
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.649);
+    height:240px;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.header img{
+    width: 480px;
+}
+
+.header h1{
+    color: rgb(45, 25, 68);
+    font-size: 120px;
+    font-weight: 300;
+}
+
+.main_btns{
+    display:flex;
+    gap:40px;
+}
+
+.main_btns button{
+    width:130px;
+    background: none;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    transition: all 0.3s ease-in;
+}
+
+.main_btns button:hover{
+    font-weight: 800;
+    color: rgb(45, 25, 68);
+}
+
+.add{
+    margin-top: 300px;
+    background-color: aliceblue;
+    color:rgb(45, 25, 68);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:600px;
+    width:90%;
+    position: relative;
+    left: 5%;
+    gap:50px;
+}
+
+.alegeri{
+    display: flex;
+    flex-direction: column;         
+    gap:50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:100px;
+}
+
+.alegere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.alegere i{
+    font-size: 80px;
+}
+
+.alegere p{
+    font-size: 15px;
+}
+
+.footer{
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    background-color: rgb(45, 25, 68);
+    padding: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col h3{
+    font-weight: 400;
+}
+
+.col p{
+    font-weight: 100;
+    }
+}
+
