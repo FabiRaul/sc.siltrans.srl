@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.impresii{
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(to bottom right, white,lightblue,  white,lightblue, white);
+    width:94%;
+    margin:120px 3% 120px 3%;
+    padding: 20px;
+    border-radius: 3px;
+    gap:50px;
+}
+
+.checked{
+    color: orange;
+}
+
+.impresii img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.impresii h1{
+    color: rgb(45, 25, 68);
+    font-style: italic;
+}
+
+.om1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 20px;
+    border: 2px solid rgb(45, 25, 68);
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.8s linear;
+}
+
+.om1:hover{
+    background-color: rgb(45, 25, 68);
+    color: aliceblue;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.om2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(45, 25, 68);
+    width: 49%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(45, 25, 68);
+    color: aliceblue;
+    transition: all 0.8s linear;
+}
+
+.om2:hover{
+    background-color: aliceblue;
+    color: rgb(45, 25, 68);
+}
+
+.om3{
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(45, 25, 68);
+    width: 49%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.8s linear;
+}
+
+.om3:hover{
+    background-color: rgb(45, 25, 68);
+    color: aliceblue;
+}
+
+.om3inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.om4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(45, 25, 68);
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(45, 25, 68);
+    color: aliceblue;
+    transition: all 0.8s linear;
+}
+
+.om4:hover{
+    background-color: aliceblue;
+    color: rgb(45, 25, 68);
+}
+
+.row4{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width:600px){
+    .om2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .om3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:992px){
+        .om2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .om3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
