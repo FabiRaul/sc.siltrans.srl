@@ -129,6 +129,7 @@ body{
     background-color: rgb(45, 25, 68);
     padding: 50px;
     border-radius: 20px 20px 0px 0px;
+    text-align: center;
 }
 
 .col{
