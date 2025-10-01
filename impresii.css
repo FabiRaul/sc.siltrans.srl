@@ -22,7 +22,7 @@
 }
 
 .impresii h1{
-    color: rgb(45, 25, 68);
+    color: #0F2646;
     font-style: italic;
 }
 
@@ -31,7 +31,7 @@
     flex-direction: row;
     align-items:center;
     gap: 20px;
-    border: 2px solid rgb(45, 25, 68);
+    border: 2px solid #0F2646;
     width: 100%;
     padding: 20px;
     background-color: white;
@@ -40,7 +40,7 @@
 }
 
 .om1:hover{
-    background-color: rgb(45, 25, 68);
+    background-color: #0F2646;
     color: aliceblue;
 }
 
@@ -55,18 +55,18 @@
     justify-content: left;
     align-items: center;
     gap: 20px;
-    border: 2px solid rgb(45, 25, 68);
+    border: 2px solid #0F2646;
     width: 49%;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(45, 25, 68);
+    background-color: #0F2646;
     color: aliceblue;
     transition: all 0.8s linear;
 }
 
 .om2:hover{
     background-color: aliceblue;
-    color: rgb(45, 25, 68);
+    color: #0F2646;
 }
 
 .om3{
@@ -75,7 +75,7 @@
     flex-direction: row-reverse;
     align-items: center;
     gap: 20px;
-    border: 2px solid rgb(45, 25, 68);
+    border: 2px solid #0F2646;
     width: 49%;
     padding: 20px;
     background-color: white;
@@ -84,7 +84,7 @@
 }
 
 .om3:hover{
-    background-color: rgb(45, 25, 68);
+    background-color: #0F2646;
     color: aliceblue;
 }
 
@@ -100,18 +100,18 @@
     justify-content: right;
     align-items: center;
     gap: 20px;
-    border: 2px solid rgb(45, 25, 68);
+    border: 2px solid #0F2646;
     width: 100%;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(45, 25, 68);
+    background-color: #0F2646;
     color: aliceblue;
     transition: all 0.8s linear;
 }
 
 .om4:hover{
     background-color: aliceblue;
-    color: rgb(45, 25, 68);
+    color: #0F2646;
 }
 
 .row4{

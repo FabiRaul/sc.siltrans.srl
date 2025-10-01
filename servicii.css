@@ -8,7 +8,7 @@
     margin:120px 3% 120px 3%;
     padding: 20px 50px 20px 50px;
     border-radius: 3px;
-    color: rgb(45, 25, 68);
+    color: #0F2646;
     gap:50px;
 }
 
@@ -90,7 +90,7 @@ hr{
     margin-right: 15%;
     border: none;
     height: 1px;
-    background-color: rgba(45, 25, 68, 0.403);
+    background-color: #0F2646;
 }
 
 @media only screen and (max-width:600px){

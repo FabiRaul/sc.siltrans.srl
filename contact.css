@@ -11,7 +11,7 @@
     margin-top: 120px;
     margin-bottom: 120px;
     padding: 20px;
-    color: rgb(45, 25, 68);
+    color: #0F2646;
     border-radius: 3px;
 }
 
@@ -41,7 +41,7 @@
 .continfo{
     background-color: white;
     padding: 60px 20px 60px 20px;
-    border: 1px solid rgb(45, 25, 68);
+    border: 1px solid #0F2646;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +50,7 @@
 }
 
 .continfo h1{
-    border-bottom: 1px solid rgb(45, 25, 68);
+    border-bottom: 1px solid #0F2646;
 }
 
 @media only screen and (max-width:600px){

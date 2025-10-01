@@ -8,13 +8,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-image: url(autocar.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgb(45, 25, 68);
-}
-
 .top{
     display: flex;
     flex-direction: column;
@@ -24,12 +17,13 @@ body{
     border-radius: 0px 0px 50px 50px;
     margin-left: 40px;
     margin-right: 40px;
-    background: none;
     backdrop-filter: blur(12px);
     border:none;
     height:480px;
     gap:40px;
     border-bottom:2px solid rgba(240, 248, 255, 0.649);
+    background-image: url("a1.jpg");
+    background-size: contain;
 }
 
 .header{
@@ -126,7 +120,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     color: aliceblue;
-    background-color: rgb(45, 25, 68);
+    background-color:#0F2646;
     padding: 50px;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
@@ -152,6 +146,7 @@ body{
         background-position: 50%;
         background-size: cover;
         background-color: aliceblue;
+        background-image:linear-gradient(to bottom right, #0F2646, #01257D, #00FFFF, #01257D, #0F2646);
     }
 
     .top{
@@ -227,7 +222,6 @@ body{
         align-items: center;
         justify-content: space-evenly;
         color: aliceblue;
-        background-color: rgb(45, 25, 68);
         padding: 50px;
         border-radius: 20px 20px 0px 0px;
     }
@@ -237,7 +231,7 @@ body{
         body{
         background-position: 50%;
         background-size: cover;
-        background-color: aliceblue;
+        background-image:linear-gradient(to bottom right, #0F2646, #01257D, #00FFFF, #01257D, #0F2646);
     }
 
     .top{
@@ -313,7 +307,6 @@ body{
         align-items: center;
         justify-content: space-evenly;
         color: aliceblue;
-        background-color: rgb(45, 25, 68);
         padding: 50px;
         border-radius: 20px 20px 0px 0px;
     }
@@ -414,11 +407,9 @@ body{
 
 @media only screen and (min-width:1475px) and (max-width:1920px){
     body{
-    background-image: url(autocar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: rgb(45, 25, 68);
+    background-image:linear-gradient(to bottom right, #0F2646, #01257D, #00FFFF, #01257D, #0F2646);
 }
 
 .top{
@@ -430,12 +421,14 @@ body{
     border-radius: 0px 0px 50px 50px;
     margin: 0% 3% 0% 3%;
     width:94%;
-    background: none;
     backdrop-filter: blur(12px);
     border:none;
     height:480px;
     gap:40px;
-    border-bottom:2px solid rgba(240, 248, 255, 0.649);
+    background-image: url("a1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55%;
 }
 
 .header{
@@ -456,7 +449,7 @@ body{
 }
 
 .header h1{
-    color: rgb(45, 25, 68);
+    color: #0F2646;
     font-size: 120px;
     font-weight: 300;
 }
@@ -475,17 +468,21 @@ body{
     font-weight: 400;
     color: aliceblue;
     transition: all 0.3s ease-in;
+    padding:2px;
+    border-radius: 3px;
 }
 
 .main_btns button:hover{
     font-weight: 800;
-    color: rgb(45, 25, 68);
+    color: #0F2646;
+    backdrop-filter: blur(8px);
+    background-color:rgba(240, 248, 255, 0.321);
 }
 
 .add{
     margin-top: 300px;
-        background-image:linear-gradient(to bottom right, white,lightblue,  white,lightblue, white);
-    color:rgb(45, 25, 68);
+    background-image:linear-gradient(to bottom right, white,lightblue,  white,lightblue, white);
+    color:#0F2646;
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -537,7 +534,6 @@ body{
     align-items: center;
     justify-content: space-evenly;
     color: aliceblue;
-    background-color: rgb(45, 25, 68);
     padding: 50px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -553,7 +549,7 @@ body{
 }
 
 .col p{
-    font-weight: 100;
+    font-weight: 200;
     }
 }
 
